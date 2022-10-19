@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 import torchvision.transforms as transforms
 from torchsummary import summary
-
+# yaoyao
 __all__ = ['ResNet', 'resnet18', 'resnet34', 'resnet50', 'resnet101']
 
 class ResNet(nn.Module):
